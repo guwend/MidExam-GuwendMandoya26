@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MidExam-GuwendMandoya26</string>
+
+    <string name="title_student_records">Student Records</string>
+    <string name="hint_student_name">Enter Student Name</string>
+    <string name="hint_student_id">Enter Student ID</string>
+    <string name="label_has_enrolled">Has Enrolled</string>
+
+    <string name="btn_add">ADD</string>
+    <string name="btn_edit">EDIT</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_view">VIEW</string>
+
+    <string name="list_hint_press_view">Press VIEW to show saved records.</string>
+    <string name="list_header_count">Saved records: %1$d (tap one to select)</string>
+    <string name="list_header_empty">No records saved yet.</string>
+
+    <string name="error_name_required">Student Name is required</string>
+    <string name="error_id_required">Student ID is required</string>
+    <string name="error_name_and_id_required">Student Name and Student ID are required</string>
+    <string name="error_student_id_taken">This Student ID is already used: %1$s</string>
+    <string name="error_select_first">Select a student from the list first (press VIEW, then tap a record)</string>
+    <string name="error_save_failed">Could not save the record</string>
+    <string name="error_record_missing">The selected record no longer exists</string>
+
+    <string name="msg_added">Student “%1$s” added</string>
+    <string name="msg_updated">Student “%1$s” updated</string>
+    <string name="msg_deleted">Student “%1$s” deleted</string>
+    <string name="msg_selected">Selected “%1$s”. You can now EDIT or DELETE.</string>
+
+    <string name="dialog_delete_title">Delete student?</string>
+    <string name="dialog_delete_message">Delete %1$s (ID: %2$s)? This cannot be undone.</string>
+    <string name="dialog_delete_confirm">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+</resources>
